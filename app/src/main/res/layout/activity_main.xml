@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFAF6"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="366dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:text="Chats"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="130dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:background="#FFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:orientation="horizontal"
+            >
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#DCD0C7"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Lance Bogrol"
+                        android:textSize="18dp"
+                        android:textColor="#F53D62"
+                        />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="10:00"
+                        android:textSize="12dp"
+                        android:textColor="#707070"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:text="White Sweater"
+                        android:textSize="15dp"
+                        android:textColor="#707070"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/Cir"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:background="#FFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#DCD0C7"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Jake Wearly"
+                        android:textSize="18dp"
+                        android:textColor="#F53D62"
+                        />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="10:00"
+                        android:textSize="12dp"
+                        android:textColor="#707070"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:text="Heels shoes"
+                        android:textSize="15dp"
+                        android:textColor="#707070"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/Cir"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:background="#FFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#DCD0C7"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Philip Anthropy"
+                        android:textSize="18dp"
+                        android:textColor="#F53D62"
+                        />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="10:00"
+                        android:textSize="12dp"
+                        android:textColor="#707070"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:text="Gary Anthropy"
+                        android:textSize="15dp"
+                        android:textColor="#707070"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/Cir"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:background="#FFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#DCD0C7"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Cunther Beard"
+                        android:textSize="18dp"
+                        android:textColor="#F53D62"
+                        />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="10:00"
+                        android:textSize="12dp"
+                        android:textColor="#707070"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:text="Skin Care Set"
+                        android:textSize="15dp"
+                        android:textColor="#707070"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/Cir"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:background="#FFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#DCD0C7"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Desmond Eagle"
+                        android:textSize="18dp"
+                        android:textColor="#F53D62"
+                        />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="10:00"
+                        android:textSize="12dp"
+                        android:textColor="#707070"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:text="Macbook"
+                        android:textSize="15dp"
+                        android:textColor="#707070"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/Cir"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
